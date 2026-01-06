@@ -4,10 +4,10 @@ conn = sqlite3.connect('escola.db')
 cursor = conn.cursor()
 
 cursor.execute('''
-CREATE TABLE IF NOT EXISTS estudantes (
-    id INTEGER PRIMARY KEY,
-    nome TEXT,
-    idade INTEGER
+    CREATE TABLE IF NOT EXISTS estudantes (
+        id INTEGER PRIMARY KEY,
+        nome TEXT,
+        idade INTEGER
 )
 ''')
 
